@@ -17,7 +17,7 @@
   <body>
   	<header>
   	<!--NAVIGATION BAR -->
-  	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="z-index:2">
     	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01">
     		<span class="navbar-toggler-icon"></span>
     	</button>
@@ -30,22 +30,22 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
     	<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
     		<li class="nav-item active">
-    			<a class="nav-link" href="#Home">Home</a>
+    			<a class="nav-link navbar-brand page-scroll" href="#Home" style="color:#083a5b">Home</a>
     		</li>
     		<li class="nav-item active">
-    			<a class="nav-link" href="#What">What</a>
+    			<a class="nav-link page-scroll" style ="color: #f7ba34" href="#What">What</a>
     		</li>
     		<li class="nav-item active">
-    			<a class="nav-link" href="#How">How</a>
+    			<a class="nav-link page-scroll" style ="color: #3cbc8d" href="#How">How</a>
     		</li>
     		<li class="nav-item active">
-    			<a class="nav-link" href="#Who">Who</a>
+    			<a class="nav-link page-scroll" style ="color: #dc4937" href="#Who">Who</a>
     		</li>
     		<li class="nav-item active">
-    			<a class="nav-link" href="#When">When</a>
+    			<a class="nav-link page-scroll" style ="color: #487bb4" href="#When">When</a>
     		</li>
     		<li class="nav-item active">
-    			<a class="nav-link" href="#Contact">Contact</a>
+    			<a class="nav-link page-scroll" style ="color: #f7ba34" href="#Contact">Contact</a>
     		</li>
     	</ul>
     	<!--DROPTOP SMOKIN COOKIN-->
@@ -67,6 +67,20 @@
     </div>
     </nav>
     </header>
+
+
+    <!--video tag-->
+
+    <div class="header-container">
+    	<div class="video-container">
+    		<video preload = "true" autoplay="autoplay" loop="loop" volume="0">
+    			<source src = "video/bg.mp4" type="video/mp4" >
+    				
+    		</video>
+    	</div>
+    	<div class="container"><h3>This is how we do it</h3></div>
+
+    </div>
 
 
 
@@ -125,7 +139,7 @@
 
     <!--data-spy is not finished-->
     <div class="container-fluid bg-3 text-center">
-    	<h3 class="margin">My Achievements</h3><br>
+    	<h3 class="margin container-fluid">My Achievements</h3><br>
     	<div class="row">
     		<div class="col-sm-4">
     		<p>C++ Python</p>
@@ -142,7 +156,74 @@
       	</div>
     </div>
 
-    <!--data-spy is not finished-->
+<div class="jumbotron"> THIS IS SO INTERESTING  </div>
+
+
+    <!--Card column-->
+  <div class="card-columns">
+  <div class="card">
+    <img class="card-img-top" src="img/walk.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h4 class="card-title">Card title that wraps to a new line</h4>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+  </div>
+  <div class="card p-3">
+    <blockquote class="blockquote mb-0 card-body">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="img/stuck.jpeg" alt="Card image cap">
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card bg-primary text-white text-center p-3">
+    <blockquote class="blockquote mb-0">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+      <footer class="blockquote-footer">
+        <small>
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card text-center">
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img" src="img/zombie.jpeg" alt="Card image">
+  </div>
+  <div class="card p-3 text-right">
+    <blockquote class="blockquote mb-0">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer class="blockquote-footer">
+        <small class="text-muted">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+      </footer>
+    </blockquote>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Card title</h4>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
     <!--data-spy is not finished-->
     <!--data-spy is not finished-->
    
