@@ -1,0 +1,8 @@
+//navbar jssection
+.navbar-custom{
+	background: #000000;
+}
+.navbar-nav >li >a{
+	color: #ffffff;  
+}
+
